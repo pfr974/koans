@@ -97,4 +97,5 @@ class AboutSymbols < Neo::Koan
   # THINK ABOUT IT:
   #
   # Why is it not a good idea to dynamically create a lot of symbols?
+  # Because we would allocate a lot of memory for nothing?
 end
